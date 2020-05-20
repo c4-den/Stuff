@@ -57,7 +57,7 @@
     opacity: 1;
 }
 
-.custom .ds4 .bumper.left {
+.custom .bumper.left {
     /* -webkit-transform: rotateY(180deg); */
     /* transform: rotateY(180deg); */
     float: left;
@@ -93,7 +93,7 @@
 }
 
 /*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
+/*.custom .quadrant{
 position: absolute;
 background: url(ps4-assets/player-n.svgz);
 height: 17px;
@@ -101,16 +101,16 @@ width: 111px;
 top: 140px;
 left: 240px;
 }
-.ds4 .p0{
+.custom .p0{
 background-position: 0 -6px;
 }
-.ds4 .p1{
+.custom .p1{
 background-position: 0 -28px;
 }
-.ds4 .p2{
+.custom .p2{
 background-position: 0 -49px;
 }
-.ds4 .p3{
+.custom .p3{
 background-position: 0 -70px;
 }*/
 .custom .arrows {
@@ -215,7 +215,7 @@ background-position: 0 -70px;
     left: 0;
 }
 
-.custom. stick.right {
+.custom .stick.right {
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }

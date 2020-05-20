@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.custom {
-    background: url(https://imgur.com/khqokHe);
+    background: url(https://imgur.com/khqokHe.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -8,7 +8,7 @@
 }
 
 .custom.disconnected {
-    background: url(https://imgur.com/Q01BYN2);
+    background: url(https://imgur.com/Q01BYN2.png);
 }
 
 .custom.disconnected div {
@@ -25,7 +25,7 @@
 .custom .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://imgur.com/HtyZXGw);
+    background: url(https://imgur.com/HtyZXGw.png);
     opacity: 0;
 }
 
@@ -41,7 +41,7 @@
 .custom .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://imgur.com/QVwP1cf) no-repeat;
+    background: url(https://imgur.com/QVwP1cf.png) no-repeat;
     opacity: 0;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .custom .touchpad.pressed {
-    background: url(https://imgur.com/G7XTygU) no-repeat center;
+    background: url(https://imgur.com/G7XTygU.png) no-repeat center;
 }
 
 .custom .meta {
@@ -89,7 +89,7 @@
 }
 
 .custom .meta.pressed {
-    background: url(https://imgur.com/DYpqApS) no-repeat center;
+    background: url(https://imgur.com/DYpqApS.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -122,7 +122,7 @@ background-position: 0 -70px;
 }
 
 .custom .back, .custom .start {
-    background: url(https://imgur.com/II9x3MW);
+    background: url(https://imgur.com/II9x3MW.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://imgur.com/ehchBCA);
+    background: url(https://imgur.com/ehchBCA.png);
 }
 
 .custom .button.pressed {
@@ -197,7 +197,7 @@ background-position: 0 -70px;
 
 .custom .stick {
     position: absolute;
-    background: url(https://imgur.com/nIdexmR);
+    background: url(https://imgur.com/nIdexmR.png);
     height: 94px;
     width: 94px;
 }
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .custom .face {
-    background: url(https://imgur.com/RQvi4CU);
+    background: url(https://imgur.com/RQvi4CU.png);
     position: absolute;
 }
 

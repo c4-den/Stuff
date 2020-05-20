@@ -1,51 +1,51 @@
 /*BEGIN PS4 Controller Styling*/
-.controller.ds4 {
-    background: url(https://imgur.com/xWW7trr);
+.custom .controller.ds4 {
+    background: url(https://imgur.com/khqokHe);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
 
-.ds4.disconnected {
-    background: url(ps4-assets/disconnected.svgz);
+.custom .ds4.disconnected {
+    background: url(https://imgur.com/Q01BYN2);
 }
 
-.ds4.disconnected div {
+.custom .ds4.disconnected div {
     display: none;
 }
 
-.ds4 .triggers {
+.custom .ds4 .triggers {
     width: 588px;
     height: 90px;
     position: absolute;
     left: 109px;
 }
 
-.ds4 .trigger {
+.custom .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://imgur.com/zyya9GA);
+    background: url(https://imgur.com/HtyZXGw);
     opacity: 0;
 }
 
-.ds4 .trigger.left {
+.custom .ds4 .trigger.left {
     float: left;
 }
 
-.ds4 .trigger.right {
+.custom .ds4 .trigger.right {
     float: right;
     background-position-x: 99px;
 }
 
-.ds4 .bumper {
+.custom .ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://imgur.com/eVOpRIs) no-repeat;
+    background: url(https://imgur.com/QVwP1cf) no-repeat;
     opacity: 0;
 }
 
-.ds4 .bumpers {
+.custom .ds4 .bumpers {
     position: absolute;
     width: 588px;
     height: 23px;
@@ -53,22 +53,22 @@
     top: 94px;
 }
 
-.ds4 .bumper.pressed {
+.custom .ds4 .bumper.pressed {
     opacity: 1;
 }
 
-.ds4 .bumper.left {
+.custom .ds4 .bumper.left {
     /* -webkit-transform: rotateY(180deg); */
     /* transform: rotateY(180deg); */
     float: left;
 }
 
-.ds4 .bumper.right {
+.custom .ds4 .bumper.right {
     float: right;
     transform: rotateY(180deg);
 }
 
-.ds4 .touchpad {
+.custom .ds4 .touchpad {
     width: 262px;
     height: 151px;
     position: absolute;
@@ -76,11 +76,11 @@
     top: 122px;
 }
 
-.ds4 .touchpad.pressed {
-    background: url(ps4-assets/touchpad.svgz) no-repeat center;
+.custom .ds4 .touchpad.pressed {
+    background: url(https://imgur.com/G7XTygU) no-repeat center;
 }
 
-.ds4 .meta {
+.custom .ds4 .meta {
     width: 42px;
     height: 42px;
     position: absolute;
@@ -88,8 +88,8 @@
     bottom: 216px;
 }
 
-.ds4 .meta.pressed {
-    background: url(ps4-assets/meta.svgz) no-repeat center;
+.custom .ds4 .meta.pressed {
+    background: url(https://imgur.com/DYpqApS) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -113,7 +113,7 @@ background-position: 0 -49px;
 .ds4 .p3{
 background-position: 0 -70px;
 }*/
-.ds4 .arrows {
+.custom .ds4 .arrows {
     position: absolute;
     width: 352px;
     height: 46px;
@@ -121,31 +121,31 @@ background-position: 0 -70px;
     left: 227px;
 }
 
-.ds4 .back, .ds4 .start {
-    background: url(https://imgur.com/bWYI0gq);
+.custom .ds4 .back, .ds4 .start {
+    background: url(https://imgur.com/II9x3MW);
     width: 28px;
     height: 46px;
     opacity: 0;
 }
 
-.ds4 .back.pressed, .ds4 .start.pressed {
+.custom .ds4 .back.pressed, .ds4 .start.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
     opacity: 1;
 }
 
-.ds4 .back {
+.custom .ds4 .back {
     float: left;
     /* width: 28px; */
 }
 
-.ds4 .start {
+.custom .ds4 .start {
     float: right;
     /* width: 28px; */
     background-position: 28px 0;
 }
 
-.ds4 .abxy {
+.custom .ds4 .abxy {
     position: absolute;
     width: 170px;
     height: 171px;
@@ -153,41 +153,41 @@ background-position: 0 -70px;
     left: 567px;
 }
 
-.ds4 .button {
+.custom .ds4 .button {
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://imgur.com/YXRx48b);
+    background: url(https://imgur.com/ehchBCA);
 }
 
-.ds4 .button.pressed {
+.custom .ds4 .button.pressed {
     background-position-y: 55px;
     /* margin-top: 5px; */
 }
 
-.ds4 .a {
+.custom .ds4 .a {
     background-position: 0 0;
     bottom: 0;
     left: 58px;
 }
 
-.ds4 .b {
+.custom .ds4 .b {
     background-position: -57px 0;
     top: 58px;
     right: 0px;
 }
 
-.ds4 .x {
+.custom .ds4 .x {
     background-position: -113px 0;
     top: 58px;
 }
 
-.ds4 .y {
+.custom .ds4 .y {
     background-position: 55px 0;
     left: 58px;
 }
 
-.ds4 .sticks {
+.custom .ds4 .sticks {
     position: absolute;
     width: 361px;
     height: 105px;
@@ -195,32 +195,32 @@ background-position: 0 -70px;
     left: 228px;
 }
 
-.ds4 .stick {
+.custom .ds4 .stick {
     position: absolute;
-    background: url(https://imgur.com/cAIMC0o);
+    background: url(https://imgur.com/nIdexmR);
     height: 94px;
     width: 94px;
 }
 
-.ds4 .stick.pressed.left {
+.custom .ds4 .stick.pressed.left {
     background-position-x: -96px;
 }
 
-.ds4 .stick.pressed.right {
+.custom .ds4 .stick.pressed.right {
     background-position-x: -192px;
 }
 
-.ds4 .stick.left {
+.custom .ds4 .stick.left {
     top: 0;
     left: 0;
 }
 
-.ds4 .stick.right {
+.custom .ds4 .stick.right {
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
 
-.ds4 .dpad {
+.custom .ds4 .dpad {
     position: absolute;
     width: 125px;
     height: 126px;
@@ -228,51 +228,51 @@ background-position: 0 -70px;
     left: 92px;
 }
 
-.ds4 .face {
-    background: url(https://imgur.com/Bijgu8a);
+.custom .ds4 .face {
+    background: url(https://imgur.com/RQvi4CU);
     position: absolute;
 }
 
-.ds4 .face.up, .ds4 .face.down {
+.custom .ds4 .face.up, .ds4 .face.down {
     width: 36px;
     height: 52px;
 }
 
-.ds4 .face.left, .ds4 .face.right {
+.custom .ds4 .face.left, .ds4 .face.right {
     width: 52px;
     height: 36px;
 }
 
-.ds4 .face.up {
+.custom .ds4 .face.up {
     left: 44px;
     top: 0;
     background-position: -37px 0px;
 }
 
-.ds4 .face.down {
+.custom .ds4 .face.down {
     left: 44px;
     bottom: 0;
     background-position: 0px 0;
 }
 
-.ds4 .face.left {
+.custom .ds4 .face.left {
     top: 45px;
     left: 0;
     background-position: 104px 0;
 }
 
-.ds4 .face.right {
+.custom .ds4 .face.right {
     top: 45px;
     right: 0px;
     background-position: 52px 0;
 }
 
-.ds4 .face.pressed {
+.custom .ds4 .face.pressed {
     /* margin-top: 5px; */
     background-position-y: 52px;
 }
 
-.ds4.half {
+.custom .ds4.half {
     margin-top: -300px;
 }
 
